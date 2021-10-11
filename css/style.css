@@ -1,3 +1,5 @@
+/* GENERAL */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,10 +12,14 @@
   text-align: center;
 }
 
+/* HEADER */
+
 header [class*="col-"] {
   min-height: 70px;
   background-color: rgb(44 62 80);
 }
+
+/* MAIN */
 
 .ms_jumbo {
   min-height: 400px;
@@ -43,4 +49,16 @@ header [class*="col-"] {
 .ms_title_green {
   min-height: 150px;
   background-color: rgb(26 188 156);
+}
+
+/* FOOTER */
+
+.ms_info {
+  min-height: 250px;
+  background-color: rgb(58 84 109);
+}
+
+.ms_copyright {
+  min-height: 50px;
+  background-color: rgb(44 62 80);
 }
