@@ -19,3 +19,28 @@ header [class*="col-"] {
   min-height: 400px;
   background-color: rgb(26 188 156);
 }
+
+.ms_title_white {
+  min-height: 150px;
+  background-color: white;
+}
+
+.ms_caselle {
+  min-height: 500px;
+  background-color: white;
+}
+
+.ms_about {
+  min-height: 250px;
+  background-color: rgb(26 188 156);
+}
+
+.ms_contact {
+  min-height: 400px;
+  background-color: white;
+}
+
+.ms_title_green {
+  min-height: 150px;
+  background-color: rgb(26 188 156);
+}
