@@ -7,9 +7,10 @@
 }
 
 [class*="col-"] {
-  border: 1px solid black;
   color: white;
   text-align: center;
+  /* debug */
+  border: 1px solid black;
 }
 
 /* HEADER */
