@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+[class*="col-"] {
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+}
+
+header [class*="col-"] {
+  min-height: 70px;
+  background-color: rgb(44 62 80);
+}
+
+.ms_jumbo {
+  min-height: 400px;
+  background-color: rgb(26 188 156);
+}
