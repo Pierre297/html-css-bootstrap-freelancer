@@ -10,7 +10,7 @@
   color: white;
   text-align: center;
   /* debug */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 /* HEADER */
@@ -38,6 +38,10 @@ header [class*="col"] {
 
 .navbar-light .navbar-nav .nav-link {
   color: white;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
 }
 
 h4 {
@@ -148,11 +152,6 @@ section [class*="col"] {
   margin: 30px 0;
 }
 
-.ms_contact {
-  min-height: 400px;
-  background-color: white;
-}
-
 .ms_title_green {
   min-height: 150px;
   background-color: rgb(26 188 156);
@@ -184,6 +183,37 @@ section [class*="col"] {
   margin: 50px 0;
 }
 
+/* contact */
+.ms_contact {
+  min-height: 400px;
+
+  background-color: white;
+}
+
+.ms_contact p {
+  color: black;
+  text-align: start;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+.contact-bar {
+  border: solid 1px grey;
+  width: 100%;
+}
+
+.contact-bar-last {
+  border: solid 1px grey;
+  width: 100%;
+  margin-top: 20%;
+}
+
+.ms_contact button {
+  background-color: rgb(26 188 156);
+  margin: 10px 0;
+  border-color: black;
+}
+
 /* FOOTER */
 
 .ms_info {
@@ -191,7 +221,29 @@ section [class*="col"] {
   background-color: rgb(58 84 109);
 }
 
+.ms_info p {
+  font-size: 23px;
+}
+
+.ms_info h3 {
+  margin-top: 10%;
+}
+
+.ms-loghi {
+  background-color: transparent;
+  border: white 2px solid;
+  border-radius: 50%;
+}
+
 .ms_copyright {
   min-height: 50px;
   background-color: rgb(44 62 80);
+}
+
+.ms_copyright p {
+  margin-top: 5px;
+}
+
+#ms_green {
+  color: rgb(26 188 156);
 }
