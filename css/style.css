@@ -20,17 +20,71 @@ header [class*="col"] {
   background-color: rgb(44 62 80);
 }
 
+.col-6 h2 {
+  margin-top: 20px;
+}
+
+/* NAVBAR */
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+  }
+}
+
+.navbar-toggler-icon {
+  margin-left: 151px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
 /* debug caselle */
 
 section [class*="col"] {
-  min-height: 200px;
+  min-height: 150px;
 }
 
 /* MAIN */
 
+/* JUMBO */
+
 .ms_jumbo {
   min-height: 400px;
   background-color: rgb(26 188 156);
+}
+
+.ms_jumbo p {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.ms_avatar {
+  width: 250px;
+  margin: 40px 0;
+}
+
+.ms_barra {
+  display: inline-block;
+  border: solid 2px;
+  width: 200px;
+  border-radius: 20px;
+  margin: 0 15px;
+}
+
+/* PORTFOLIO */
+
+.ms-portfolio {
+  margin-top: 55px;
+}
+
+.ms-black-txt {
+  color: black;
 }
 
 .ms_title_white {
@@ -43,9 +97,55 @@ section [class*="col"] {
   background-color: white;
 }
 
+.caselle_img {
+  min-height: 200px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+/* colori caselle */
+
+.clr-1 {
+  background-color: rgb(186 75 99);
+}
+
+.clr-2 {
+  background-color: rgb(30 164 182);
+}
+
+.clr-3 {
+  background-color: rgb(19 15 15);
+}
+
+.clr-4 {
+  background-color: rgb(28 131 193);
+}
+
+.clr-5 {
+  background-color: rgb(14 56 181);
+}
+
+.clr-6 {
+  background-color: rgb(204 178 163);
+}
+
+.caselle_img img {
+  width: 300px;
+}
+
+.caselle-con {
+  margin-bottom: 50px;
+}
+
+/* about */
+
 .ms_about {
   min-height: 250px;
   background-color: rgb(26 188 156);
+}
+
+.about-star {
+  margin: 30px 0;
 }
 
 .ms_contact {
@@ -56,6 +156,32 @@ section [class*="col"] {
 .ms_title_green {
   min-height: 150px;
   background-color: rgb(26 188 156);
+}
+
+#ms-right-col {
+  font-size: 21px;
+  text-align: start;
+  width: 80%;
+  margin-left: 20%;
+}
+
+#ms-left-col {
+  font-size: 21px;
+  text-align: start;
+  width: 80%;
+}
+
+@media (max-width: 750px) {
+  #ms-right-col,
+  #ms-left-col {
+    margin-left: 10%;
+  }
+}
+
+.ms_download button {
+  color: white;
+  border-color: white;
+  margin: 50px 0;
 }
 
 /* FOOTER */
