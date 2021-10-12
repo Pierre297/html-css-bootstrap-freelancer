@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-[class*="col-"] {
+[class*="col"] {
   color: white;
   text-align: center;
   /* debug */
@@ -15,9 +15,15 @@
 
 /* HEADER */
 
-header [class*="col-"] {
+header [class*="col"] {
   min-height: 70px;
   background-color: rgb(44 62 80);
+}
+
+/* debug caselle */
+
+section [class*="col"] {
+  min-height: 200px;
 }
 
 /* MAIN */
